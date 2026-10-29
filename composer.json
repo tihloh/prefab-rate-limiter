@@ -1,0 +1,9 @@
+{
+  "name": "tihloh/prefab-rate-limiter",
+  "description": "Reusable rate limiting for Prefab and other PHP applications",
+  "type": "library",
+  "license": "MIT",
+  "require": {"php": "^8.2"},
+  "autoload": {"psr-4": {"Tihloh\\Prefab\\RateLimiter\\": "src/"}},
+  "scripts": {"test": "php tests/run.php"}
+}
